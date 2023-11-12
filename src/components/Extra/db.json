@@ -1,0 +1,171 @@
+{
+    "tecnology":[
+        {
+            "idProd":100,
+            "name":"Spiderman 2 PS5",
+            "image":"https://images.pushsquare.com/games/ps5/marvels_spider-man_2/cover_large.jpg",
+            "categories":"marvel ps5 spiderman",
+            "price": 200
+        },
+        {
+            "idProd":101,
+            "name":"God of War Ragnarok PS5",
+            "image":"https://cdn.alza.cz/ImgW.ashx?fd=f3&cd=PSV0017",
+            "categories":"kratos ps5 GOW",
+            "price": 150
+        },
+        {
+            "idProd":102,
+            "name":"Spiderman PS4",
+            "image":"https://th.bing.com/th/id/OIP.2KpvfM1XMSnKbtwnr02NTwHaHa?pid=ImgDet&w=600&h=600&rs=1",
+            "categories":"marvel ps4 spiderman",
+            "price": 100
+        },
+        {
+            "idProd":103,
+            "name":"Spiderman Miles Morales PS4",
+            "image":"https://th.bing.com/th/id/R.1cdd8e91684923c4276e201f6e59a660?rik=VhxXJaoiIMZ5Pw&pid=ImgRaw&r=0",
+            "categories":"marvel ps4 spiderman",
+            "price": 100
+        },
+        {
+            "idProd":104,
+            "name":"God of War PS4",
+            "image":"https://gamecentersac.com/wp-content/uploads/2023/02/PI171_3-600x600.jpg",
+            "categories":"kratos ps4 GOW",
+            "price": 80
+        },
+        {
+            "idProd":105,
+            "name":"God of War 3 PS4",
+            "image":"https://th.bing.com/th/id/R.8ac28abd810602e1c0a9b120a370fbdf?rik=%2fjjrYEcne20L9A&riu=http%3a%2f%2fmedios.plazavip.com%2ffotos%2fproductos_sears1%2foriginal%2f2426294.jpg&ehk=7F%2b7izc6OqCCROPTwMF19a8sVqJxKcPnBZ9UQGp6iE8%3d&risl=&pid=ImgRaw&r=0",
+            "categories":"kratos ps4 GOW",
+            "price": 30
+        }
+    ],
+    "phones":[
+        {
+            "idProd":201,
+            "name":"Samsung Galaxy S22",
+            "image":"//ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F1977%2FACCESORIOS%2FRELOJ%2FCELU437NEGRO-256GB_231309782811_9.jpeg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=c57cf352683a94730afc91388d7dc9d5",
+            "categories":"Samsung Galaxy Galaxy_S",
+            "price": 1999
+        },
+        {
+            "idProd":202,
+            "name":"Samsung Galaxy A54",
+            "image":"//ripleype.imgix.net/https%3A%2F%2Fmedia-prod-use-1.mirakl.net%2FSOURCE%2Ff09f472c0af24dcebb51c113bc3250ad?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=dafd883192faa03ba75bb2c2fa775050",
+            "categories":"Samsung Galaxy Galaxy_A",
+            "price": 1499
+        },
+        {
+            "idProd":203,
+            "name":"Honor X7a",
+            "image":"//ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F3180%2FELECTROHOGAR%2FHONOR%20X7A%20AZUL%20RIPLEY.jpg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=8aa04c302aabe3e1f6219c0f3305dbac",
+            "categories":"Honor X X_7",
+            "price": 659
+        },
+        {
+            "idProd":204,
+            "name":"Iphone 15",
+            "image":"https://home.ripley.com.pe/Attachment/WOP_5/2065323799695/2065323799695_2.jpg",
+            "categories":"Apple Iphone Iphone_15",
+            "price": 4799
+        },
+        {
+            "idProd":205,
+            "name":"Samsung Galaxy A34",
+            "image":"https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F1977%2FELECTROHOGAR%2FTECNOLOGIA%2FCELULARES%2FCELU588MORADO-128GB.jpg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=33bee228d2929b2cfe0445bdcaef0c4d",
+            "categories":"Samsung Galaxy A_34",
+            "price": 1050
+        },
+        {
+            "idProd":206,
+            "name":"Iphone 13",
+            "image":"https://home.ripley.com.pe/Attachment/WOP_5/2065287752910/2065287752910_2.jpg",
+            "categories":"Apple Iphone Iphone_13",
+            "price": 2999
+        }
+    ],
+    "fashion":[
+        {
+            "idProd":301,
+            "name":"Spiderman Miles Morales PS4",
+            "image":"https://th.bing.com/th/id/R.1cdd8e91684923c4276e201f6e59a660?rik=VhxXJaoiIMZ5Pw&pid=ImgRaw&r=0",
+            "categories":"marvel ps4 spiderman",
+            "price": 100
+        },
+        {
+            "idProd":302,
+            "name":"Spiderman Miles Morales PS4",
+            "image":"https://th.bing.com/th/id/R.1cdd8e91684923c4276e201f6e59a660?rik=VhxXJaoiIMZ5Pw&pid=ImgRaw&r=0",
+            "categories":"marvel ps4 spiderman",
+            "price": 100
+        },
+        {
+            "idProd":303,
+            "name":"Spiderman Miles Morales PS4",
+            "image":"https://th.bing.com/th/id/R.1cdd8e91684923c4276e201f6e59a660?rik=VhxXJaoiIMZ5Pw&pid=ImgRaw&r=0",
+            "categories":"marvel ps4 spiderman",
+            "price": 100
+        },
+        {
+            "idProd":304,
+            "name":"Spiderman Miles Morales PS4",
+            "image":"https://th.bing.com/th/id/R.1cdd8e91684923c4276e201f6e59a660?rik=VhxXJaoiIMZ5Pw&pid=ImgRaw&r=0",
+            "categories":"marvel ps4 spiderman",
+            "price": 100
+        },
+        {
+            "idProd":305,
+            "name":"Spiderman Miles Morales PS4",
+            "image":"https://th.bing.com/th/id/R.1cdd8e91684923c4276e201f6e59a660?rik=VhxXJaoiIMZ5Pw&pid=ImgRaw&r=0",
+            "categories":"marvel ps4 spiderman",
+            "price": 100
+        },
+        {
+            "idProd":306,
+            "name":"Spiderman Miles Morales PS4",
+            "image":"https://th.bing.com/th/id/R.1cdd8e91684923c4276e201f6e59a660?rik=VhxXJaoiIMZ5Pw&pid=ImgRaw&r=0",
+            "categories":"marvel ps4 spiderman",
+            "price": 100
+        }
+    ],
+    "house":[
+        {
+            "idProd":401,
+            "name":"Iphone 13",
+            "image":"https://home.ripley.com.pe/Attachment/WOP_5/2065287752910/2065287752910_2.jpg",
+            "categories":"Apple Iphone Iphone_13",
+            "price": 2999
+        },
+        {
+            "idProd":402,
+            "name":"Iphone 13",
+            "image":"https://home.ripley.com.pe/Attachment/WOP_5/2065287752910/2065287752910_2.jpg",
+            "categories":"Apple Iphone Iphone_13",
+            "price": 2999
+        },
+        {
+            "idProd":403,
+            "name":"Iphone 13",
+            "image":"https://home.ripley.com.pe/Attachment/WOP_5/2065287752910/2065287752910_2.jpg",
+            "categories":"Apple Iphone Iphone_13",
+            "price": 2999
+        },
+        {
+            "idProd":404,
+            "name":"Iphone 13",
+            "image":"https://home.ripley.com.pe/Attachment/WOP_5/2065287752910/2065287752910_2.jpg",
+            "categories":"Apple Iphone Iphone_13",
+            "price": 2999
+        },
+        {
+            "idProd":405,
+            "name":"Iphone 13",
+            "image":"https://home.ripley.com.pe/Attachment/WOP_5/2065287752910/2065287752910_2.jpg",
+            "categories":"Apple Iphone Iphone_13",
+            "price": 2999
+        }
+    ]
+}
