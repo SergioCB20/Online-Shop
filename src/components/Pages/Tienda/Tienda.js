@@ -28,7 +28,7 @@ export function Tienda() {
   const [db, setDb] = useState([]);
   const [currentCat, setCat] = useState(categories.primero);
   const [ordenAscendente, setOrdenAscendente] = useState(true);
-  const [campo,setCampo] = useState("price");
+  const [campo, setCampo] = useState("price");
 
   let api = helpHttp();
   let url = `http://localhost:5000${currentCat.valor.name}`;
@@ -61,11 +61,112 @@ export function Tienda() {
   return (
     <div className="container pt-5 pb-5">
       <div className="row">
-        <div className="col-12 border col-md-2">
+        <div className="col-12 d-block d-lg-none border">
+          <a
+            class="btn btn-primary"
+            data-bs-toggle="offcanvas"
+            href="#offcanvasExample"
+            role="button"
+            aria-controls="offcanvasExample"
+          >
+            Filtros
+          </a>
+        </div>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+              Filtros
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>
+              <h4>Ordenar:</h4>
+              <fieldset className="">
+                <h5>De manera:</h5>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    name="dirOrdenamiento"
+                    id="dirOrdenamiento1"
+                    onChange={() => setOrdenAscendente(true)}
+                    checked={ordenAscendente}
+                  />
+                  <label
+                    className="form-check-label"
+                    htmlFor="dirOrdenamiento1"
+                  >
+                    Ascendente
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    name="dirOrdenamiento"
+                    id="dirOrdenamiento2"
+                    onChange={() => setOrdenAscendente(false)}
+                  />
+                  <label
+                    className="form-check-label"
+                    htmlFor="dirOrdenamiento2"
+                  >
+                    Descendente
+                  </label>
+                </div>
+                <h5>Por:</h5>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    name="campoOrdenamiento"
+                    id="campoOrdenamiento1"
+                    onChange={() => setCampo("price")}
+                    checked={campo === "price"}
+                  />
+                  <label
+                    className="form-check-label"
+                    htmlFor="dirOrdenamiento1"
+                  >
+                    Precio
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    name="campoOrdenamiento"
+                    id="campoOrdenamiento2"
+                    onChange={() => setCampo("name")}
+                  />
+                  <label
+                    className="form-check-label"
+                    htmlFor="dirOrdenamiento2"
+                  >
+                    Nombre
+                  </label>
+                </div>
+              </fieldset>
+              <button onClick={ordenarProd}>Ordenar</button>
+            </div>
+          </div>
+        </div>
+        <div className="col-2 border d-none d-lg-block">
           <h2 className="text-center">Filtros</h2>
           <div>
             <h4>Ordenar:</h4>
-            <fieldset>
+            <fieldset className="">
               <h5>De manera:</h5>
               <div className="form-check">
                 <input
